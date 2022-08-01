@@ -1,5 +1,5 @@
 function testCycle(k, n) {
-  var x = '';
+  let x = '';
   for (let i = 1; i <= k; i++) {
       x += n + ' ';
   }
